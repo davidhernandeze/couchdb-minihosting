@@ -12,7 +12,7 @@ CouchDB Minihosting is a great starting point for hosting smaller CouchDB projec
 
 - A CouchDB instance with an admin user
 - A [haproxy](https://www.haproxy.org) and an [nginx](https://nginx.org) setup that:
-  - redirect all requests to `/_api` to that CouchDB
+  - redirect all requests to `/_api` to CouchDB
   - handle letsencrypt/certbot for continuous TLS certificates
   - optionally host your web project at `/`
 - A deploy script that will let you deploy or roll back your web project
